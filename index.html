@@ -1,27 +1,47 @@
 <!doctype html>
 <meta charset="utf-8">
-<link rel="stylesheet" href="static/style.css">
-<title>Привет, Мир! — nestessia</title>
-<body>
-  <header>
-    <h1>nestessia</h1>
+<html lang="ru"> 
+  <head>    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/fav/favicon.ico" type="image">
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="icon" href="/static/favicon.png" type="image">
+  </head>
+<title>Обо мне</title>
+  <body>
+    <header>
+  <nav class="navbar navbar-light" style="background-color: AliceBlue">
+  <div class="container">
+  <img src="/static/logo.png" width="90" height="90" class="d-inline-block align-top" alt="">
+  <h1>nestessia</h1> 
     <nav>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="./">Welcome</a></li>
-        
-          <li><a href="projects/">Projects</a></li>
-        
+      <ul class="nav nav-pills">
+        <li class="nav-item"  class="active"><a class="nav-link" href="./">Обо мне
+          </a>
+        </li>
+        <li class="nav-item" ><a class="nav-link" href="proekty/">Проекты
+          </a>
+        </li>
       </ul>
     </nav>
   </header>
-  <div class="page">
-    
-  <h2>Привет, Мир!</h2>
-  <p>Это портфолио студентки РГПУ им.Герцена Крючковой Анастасии Сергеевны</p>
-
-
-  </div>
-  <footer>
-    &copy; Copyright 2023 by nestessia.
-  </footer>
-</body>
+    <div class="container py-5">   
+      <div class="page">
+        
+        <h1>Hello, World!</h1>
+        <p>
+          Меня зовут Крючкова Анастасия Сергеевна, родом из Республики Коми.
+        </p>
+        <p>
+          На этом сайте расположены проекты и задания, сделанные за 4 года обучения в РГПУ им. Герцена, а так же проекты по Яндекс Практикуму.
+        </p>
+        <img src="/static/doggy.gif" width="400" height="330" class="d-inline-block align-center" alt="">
+        
+      </div>
+    </div>
+    <footer class="border-top text-center py-3">
+  <p>© Портфолио</p> 
+</footer>
+  </body>
+</html>
